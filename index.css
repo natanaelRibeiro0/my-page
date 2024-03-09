@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 50px 120px;
+  
+  display: flex;
+  gap: 2rem;
+  
+  background-color: rgba(219, 219, 219, 0.205);
+  font-family: "Roboto";
+}
+
+.icons {
+  width: 25px;
+}
+
+.icons-lg{
+  max-width: 50px;
+  height: auto;
+}
+
+/*  Foto */
+
+.photo{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo h1{
+  padding: 23rem 30px 0px ;
+  position: absolute;
+
+  color: #ffffff;
+}
+
+.photo img{
+  width: 100%;
+  height: auto;
+}
+
+/* Container lateral */
+
+aside {
+  flex: 30%;
+  height: fit-content;
+
+  background-color: #ffff;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.534);
+}
+
+.info{
+  padding: 2rem 1.5rem 30px;
+  display: flex;
+  list-style: none;
+}
+.info li{
+  padding: 10px 10px 10px;
+
+  display: flex;
+  gap: 20px;
+  
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.skills{
+  padding: 3rem 1.5rem 30px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+  list-style: none;
+}
+.skills li {
+  padding: 10px 10px 10px;
+
+  display: flex;
+  gap: 20px;
+  
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.myPesrsonalSkills{
+  padding: 2.7rem 1.5rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+  list-style: none;
+}
+.myPesrsonalSkills li{
+  padding: 10px 10px 10px;
+
+  display: flex;
+  gap: 20px;
+  
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 100;
+}
+/* Conteudo do meio */
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 90%;
+  
+  background-color: rgb(255, 255, 255);
+}
+
+/* Texto de boas vindas */
+main header {
+  padding: 15px;
+  height: 60px;
+
+  text-align: center;
+  color: #ffffff;
+  background-color: #8F19D8;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.534);
+}
+
+/* Texto sobre mim */
+main section {
+  padding: 10px 3rem;
+
+  font-size: 17px;
+  font-family: "Open Sans";
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.534);
+}
+
+/* Container de projetos */
+.projectsCnt{
+  padding: 30px 0px 20px;
+
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project {
+  padding: 5px 30px;
+  width: 25rem;
+  height: 12rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+
+  border-radius: 15px;
+  font-size: 15px;
+  transition: 70ms;
+
+  color: #8F19D8;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.534);
+}
+
+.project:hover{
+  transform: translateY(-10px);
+}
+
+.tag{
+  padding: 5px;
+
+  border-radius: 10px;
+  background-color: #8F19D8;
+  color: #ffffff;
+  box-shadow: 0px 0px 10px 1px #8F19D8;
+}
+
+/* Container de skills */
+.mySkillsCnt{
+  padding: 10px 10px;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+}
+
+.mySkillsCnt img {
+  width: 5rem;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  padding: 40px 0px;
+
+  width: 100%;
+  height: 10rem;
+  
+  text-align: center;
+  
+  color: #fff;
+  background-color: #8F19D8;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.534);
+}

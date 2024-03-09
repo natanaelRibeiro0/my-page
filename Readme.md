@@ -1,0 +1,1 @@
+Clique []() para ir para a página ( ^ - ^ )
